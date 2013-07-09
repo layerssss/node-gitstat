@@ -1,0 +1,21 @@
+{
+  "name": "node-gitstat",
+  "version": "0.0.1",
+  "description": "node-gitstat ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/layerssss/node-gitstat.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/layerssss/node-gitstat/issues"
+  },
+  "dependencies": {
+    "header-stack": "~0.1.3"
+  }
+}
