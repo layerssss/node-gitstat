@@ -41,7 +41,7 @@ module.exports = class gitstat
         c.author = headers.author
         c.date = headers.date
         c.merge = headers.merge
-        c.message = leftover.toString('utf8').replace(/[\s\n]+/g,' ').trim()
+        c.message = leftover.toString('utf8').replace(/^\s+/mg, '').trim()
 
       parser.on 'error', (e)->
         console.error e
